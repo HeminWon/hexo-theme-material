@@ -249,16 +249,16 @@ sidebar:
 # If you want to use gitment,you should get the client_id and client_secret form https://github.com/settings/applications/new
 # If you want to use valine,you should get the app_id and app_key form https://leancloud.cn ,more setting please see https://github.com/xCss/Valine
 comment:
-    use:
+    use: gitment
     shortname: # duoshuo or disqus shortname
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
     livere_data_uid:
-    gitment_repo:   # git repo of the hexo
-    gitment_owner:  # git repo's owner
-    gitment_client_id:  # github app client id 
-    gitment_client_secret :  # github app client secret 
+    gitment_repo: https://github.com/HeminWon/blog.git # git repo of the hexo
+    gitment_owner: HeminWon # git repo's owner
+    gitment_client_id: 043d6b5992c32c9aa88e # github app client id 
+    gitment_client_secret : c42203f61319476ff8180fa7d7a44e00e81789fa # github app client secret 
     valine_leancloud_appId: # leancloud application app id
     valine_leancloud_appKey: # leancloud application app key
 
