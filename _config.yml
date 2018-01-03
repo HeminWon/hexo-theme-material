@@ -255,7 +255,7 @@ comment:
     changyan_conf:
     changyan_thread_key_type: path
     livere_data_uid:
-    gitment_repo: https://github.com/HeminWon/blog.git # git repo of the hexo
+    gitment_repo: gitment # git repo of the hexo
     gitment_owner: HeminWon # git repo's owner
     gitment_client_id: 043d6b5992c32c9aa88e # github app client id 
     gitment_client_secret : c42203f61319476ff8180fa7d7a44e00e81789fa # github app client secret 
@@ -273,7 +273,7 @@ search:
 # Available value:
 #     baidu | google | cnzz
 analytics:
-    google_site_id:
+    google_site_id: UA-111726454-1
     baidu_site_id:
     cnzz_site_id:
 
